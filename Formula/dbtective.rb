@@ -1,25 +1,25 @@
 class Dbtective < Formula
   desc "A Rust-powered linter and detective for dbt metadata best practices"
   homepage "https://github.com/feliblo/dbtective"
-  version "0.2.10"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/feliblo/dbtective/releases/download/v0.2.10/dbtective-aarch64-apple-darwin.tar.xz"
-      sha256 "5af9d14feb6157cc84c900b162edf08f21c681bffeefc2d4f9eaf67f107408fa"
+      url "https://github.com/feliblo/dbtective/releases/download/v0.3.0/dbtective-aarch64-apple-darwin.tar.xz"
+      sha256 "891fde4a9d286bbfb1c28549cb60d197eea0afde7c812cc41021d69b934cb584"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/feliblo/dbtective/releases/download/v0.2.10/dbtective-x86_64-apple-darwin.tar.xz"
-      sha256 "383585fb14e245cf14108d4d65be53813ebb0b7c7e0c7d52aa5ae1a4b1d19388"
+      url "https://github.com/feliblo/dbtective/releases/download/v0.3.0/dbtective-x86_64-apple-darwin.tar.xz"
+      sha256 "825dcec6cea4ac69632ad430d9b54edf4ce3025b5bb925a04791e41b4bede2c3"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/feliblo/dbtective/releases/download/v0.2.10/dbtective-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9b48f38beed15a3220bfd8bb5a53e7dd58dbf523ed6fd3e7fdf7fbbdec45d967"
+      url "https://github.com/feliblo/dbtective/releases/download/v0.3.0/dbtective-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "e217eeeabd77517b9326992177d391bfa27307411cc6c8ee6fc99a1aaa79f175"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/feliblo/dbtective/releases/download/v0.2.10/dbtective-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3f168117c00e9967af38e001f5983570de665f829d696af689bbeeeb445a4efa"
+      url "https://github.com/feliblo/dbtective/releases/download/v0.3.0/dbtective-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "45bc5a98588f3ffbf68dd4fe27fac7c6766271fed037ea2cefd891a3d3f2a237"
     end
   end
   license "MIT"
