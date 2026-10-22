@@ -1,25 +1,25 @@
 class Odcslint < Formula
   desc "A fast linter and fixer for Open Data Contract Standard (ODCS) contracts"
   homepage "https://github.com/feliblo/odcslint"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/feliblo/odcslint/releases/download/v0.2.0/odcslint-aarch64-apple-darwin.tar.xz"
-      sha256 "b1cf4ca0e6ed9795c43aeb468b2381404787f6ba44f9de978d634ca5f5678c5c"
+      url "https://github.com/feliblo/odcslint/releases/download/v0.3.0/odcslint-aarch64-apple-darwin.tar.xz"
+      sha256 "cc002e1fc943aaec00b9f35f8831e47ba0dd384be5a52d4ef2d433cea56008c8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/feliblo/odcslint/releases/download/v0.2.0/odcslint-x86_64-apple-darwin.tar.xz"
-      sha256 "b0295374d67fd9c52cd2609380e82a26b9392519a6267a4b42a593b7a4cbfa8f"
+      url "https://github.com/feliblo/odcslint/releases/download/v0.3.0/odcslint-x86_64-apple-darwin.tar.xz"
+      sha256 "c6b59fb3badcf8836605a417ff456a3c9ad9ce8d605956062a86131d99231646"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/feliblo/odcslint/releases/download/v0.2.0/odcslint-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6879320295ba1e51995272eb17795cf533ebfe3c96ad15245833e496859437db"
+      url "https://github.com/feliblo/odcslint/releases/download/v0.3.0/odcslint-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "678ab3e7fdc3b18108923c730f15b815e6d145e57f90adde57cdbfb430f818f4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/feliblo/odcslint/releases/download/v0.2.0/odcslint-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "db220aadc7adbc060fc1ce27d69e600cfd5a769f63c0ff013bb6a5a2b0b3b018"
+      url "https://github.com/feliblo/odcslint/releases/download/v0.3.0/odcslint-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "03135ef69ed9af8a55979340f45ac1b1020b977a9843320a1a9bcfa06757ea17"
     end
   end
   license "MIT"
